@@ -34,4 +34,11 @@ class OperacionesTDDTest {
         assertEquals("4", Suma);
         System.out.println("El tests se ha realizado correctamente");
     }
+
+    @Test
+    void TestE() {
+        OperacionesTDD Operacion = new OperacionesTDD();
+        int Suma = Operacion.Sumas("-1,2");
+        assertEquals("-1", Suma);
+    }
 }
