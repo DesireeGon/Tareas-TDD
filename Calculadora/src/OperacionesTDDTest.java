@@ -18,4 +18,20 @@ class OperacionesTDDTest {
         assertEquals("1", Suma);
         System.out.println("El tests se ha realizado correctamente");
     }
+
+    @Test
+    void TestC() {
+        OperacionesTDD Operacion = new OperacionesTDD();
+        int Suma = Operacion.Sumas("1,2");
+        assertEquals("1", Suma);
+        System.out.println("El tests se ha realizado correctamente");
+    }
+
+    @Test
+    void TestD() {
+        OperacionesTDD Operacion = new OperacionesTDD();
+        int Suma = Operacion.Sumas("1,1,2");
+        assertEquals("4", Suma);
+        System.out.println("El tests se ha realizado correctamente");
+    }
 }

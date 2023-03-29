@@ -4,6 +4,8 @@ public class OperacionesTDD {
 
     int suma = 0;
 
+    String[] Array = tomate.split(",");
+
     return suma;
     }
 }
