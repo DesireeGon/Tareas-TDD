@@ -26,4 +26,27 @@ public class FizzBuzzTest {
         assertEquals("Fizz", pomelo1);
         System.out.println("Se ha ejecutado correctamente el test");
     }
+
+    @Test
+    void fizzBuzz_Calculo4() {
+        FizzBuzz test4 = new FizzBuzz();
+        FizzBuzz test5 = new FizzBuzz();
+
+        String pomelo1 = test4.FizzBuzz_Calculo(4);
+        String pomelo2 = test5.FizzBuzz_Calculo(5);
+
+        assertEquals("4", pomelo1);
+        assertEquals("Buzz", pomelo2);
+        System.out.println("Se ha ejecutado correctamente el test");
+    }
+
+    @Test
+    void fizzBuzz_Calculo6() {
+        FizzBuzz test6 = new FizzBuzz();
+
+        String pomelo1 = test6.FizzBuzz_Calculo(6);
+
+        assertEquals("Fizz", pomelo1);
+        System.out.println("Se ha ejecutado correctamente el test");
+    }
 }
